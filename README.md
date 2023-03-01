@@ -1,5 +1,5 @@
 # Duke-IDS-721-Projects
-## 1.1 Week6-Project2-exchange-time-service
+## 1 Week6-Project2-exchange-time-service
 ### Description
 - My project 2 is used to parse the currency name entered by the user, and then return to the user the real-time exchange rate between that currency and Chinese Yuan (RMB). Also, I deploy this application on AWS AppRunner for Rust-based microservice.
 
@@ -16,3 +16,20 @@
 <img width="1318" alt="Screen Shot 2023-03-01 at 13 58 15" src="https://user-images.githubusercontent.com/93239143/222237974-ea7ae817-0fc7-4566-921f-583036a8d041.png">
   - So, now user can use my microservice by opening this website https://3mzm5dnk7d.us-east-1.awsapprunner.com/. For example, open this website: https://3mzm5dnk7d.us-east-1.awsapprunner.com/exchange_rate/JPY.
 <img width="712" alt="Screen Shot 2023-03-01 at 13 59 49" src="https://user-images.githubusercontent.com/93239143/222238263-5fee92af-5c1e-45aa-97f5-78c6cd5dc548.png">
+
+## 2 Week6-Rust-miniproject-survival-time
+### Description
+This project can be used to calculate the total survival time of the user through the age entered by the user (a mini Rust CLI tool).
+
+## Usage
+- User can type in `cargo run -- subcommand -- commandLineArg1` in command line. The command line argument is the age (in year) of user.
+- Here is an example:
+    ```
+    cargo run -- survival-time -- 23
+    ```
+- Output examples: 
+  - The output of `cargo run -- survival-time -- 23` is:
+  <img width="722" alt="Screen Shot 2023-03-01 at 14 51 13" src="https://user-images.githubusercontent.com/93239143/222250733-2a624494-9dba-4de9-b512-b8297982de17.png">
+
+  - The output of `cargo run -- survival-time -- 70` is:
+  <img width="722" alt="Screen Shot 2023-03-01 at 14 51 19" src="https://user-images.githubusercontent.com/93239143/222250775-6d9dedd5-18a5-454e-9018-fbc98165fa39.png">
