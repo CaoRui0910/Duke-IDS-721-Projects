@@ -1,5 +1,5 @@
 # Duke-IDS-721-Projects
-## 1 Week6-Project2-exchange-time-service
+## 1. Week6-Project2-exchange-time-service
 ### Description
 - My project 2 is used to parse the currency name entered by the user, and then return to the user the real-time exchange rate between that currency and Chinese Yuan (RMB). Also, I deploy this application on AWS AppRunner for Rust-based microservice.
 
@@ -17,7 +17,7 @@
   - So, now user can use my microservice by opening this website https://3mzm5dnk7d.us-east-1.awsapprunner.com/. For example, open this website: https://3mzm5dnk7d.us-east-1.awsapprunner.com/exchange_rate/JPY.
 <img width="712" alt="Screen Shot 2023-03-01 at 13 59 49" src="https://user-images.githubusercontent.com/93239143/222238263-5fee92af-5c1e-45aa-97f5-78c6cd5dc548.png">
 
-## 2 Week6-Rust-miniproject-survival-time
+## 2. Week6-Rust-miniproject-survival-time
 ### Description
 This project can be used to calculate the total survival time of the user through the age entered by the user (a mini Rust CLI tool).
 
