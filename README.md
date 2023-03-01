@@ -15,5 +15,5 @@
 - Second, I push it to AWS ECR. 
 <img width="1318" alt="Screen Shot 2023-03-01 at 13 58 15" src="https://user-images.githubusercontent.com/93239143/222237974-ea7ae817-0fc7-4566-921f-583036a8d041.png">
   - According to the introduction of this video (https://www.youtube.com/watch?v=I3cEQ_7aD1A), I implemented this step.
-  So, now user can use my microservice by opening this website https://3mzm5dnk7d.us-east-1.awsapprunner.com/. For example, open this website: https://3mzm5dnk7d.us-east-1.awsapprunner.com/exchange_rate/JPY.
+  - So, now user can use my microservice by opening this website https://3mzm5dnk7d.us-east-1.awsapprunner.com/. For example, open this website: https://3mzm5dnk7d.us-east-1.awsapprunner.com/exchange_rate/JPY.
 <img width="712" alt="Screen Shot 2023-03-01 at 13 59 49" src="https://user-images.githubusercontent.com/93239143/222238263-5fee92af-5c1e-45aa-97f5-78c6cd5dc548.png">
